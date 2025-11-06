@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: white;
+}
+
+/* Navbar Section */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: #111;
+}
+
+.logo {
+    font-size: 26px;
+    color: #66ccff;
+    font-weight: bold;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.shop-btn {
+    background: linear-gradient(90deg, #6a00ff, #00bcd4);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(106, 0, 255, 0.3);
+}
+
+.shop-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 25px rgba(106, 0, 255, 0.5);
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 80px 60px;
+}
+
+.content h1 {
+    font-size: 42px;
+    line-height: 1.4;
+}
+
+.highlight {
+    background: linear-gradient(90deg, #00e5ff, #fa00ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.content p {
+    margin: 20px 0;
+    max-width: 500px;
+    color: #ccc;
+}
+
+/* Buttons section */
+.buttons button {
+    margin-right: 15px;
+    padding: 12px 25px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.order-btn {
+    background: linear-gradient(to right, #00bcd4, #fa00ff);
+}
+
+.Know-btn {
+    background: linear-gradient(to right, #7c4dff, #64ffda);
+}
+
+.buttons button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(102, 204, 255, 0.4);
+}
+
+.buttons button:active {
+    transform: scale(0.95);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Product Image */
+.product-image img {
+    position: absolute;
+    right: 80px;
+    bottom: 0;
+    width: 650px;
+    height: auto;
+    pointer-events: none;
+}
